@@ -1,0 +1,97 @@
+/* Estilo geral do projeto */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Rolagem suave para uma navegação mais agradável */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Ajuste padrão para imagem principal */
+.hero-image,
+img{
+    max-height: 420px;
+    object-fit: cover;
+}
+
+/* Títulos principais das seções */
+main h2{
+    color: #212529;
+}
+
+/* Limita largura do texto introdutório */
+.intro-text{
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo dos cards */
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Botão principal */
+.btn-primary{
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.btn-primary:hover{
+    transform: scale(1.03);
+}
+
+/* Blocos claros com borda suave */
+.bg-light{
+    border: 1px solid #dee2e6;
+}
+
+.card-text{
+    margin-bottom: 0.75rem;
+}
+
+.simple-list{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.simple-list li{
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo do menu */
+.navbar .nav-link{
+    border-radius: 8px;
+    padding: 0.45rem 0.9rem;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Estilos criados especialmente para a nova página Equipe */
+.team-card{
+    border: 1px solid #dee2e6;
+}
+
+.team-role{
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 0.75rem;
+}
+
+.team-highlight{
+    background-color: #e9f2ff;
+    border: 1px solid #b9d4ff;
+}

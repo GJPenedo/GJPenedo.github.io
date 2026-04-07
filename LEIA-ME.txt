@@ -1,0 +1,17 @@
+GABARITO COMPLETO - ATIVIDADE UC15
+
+Arquivos incluídos:
+- index.html
+- servicos.html
+- sobre.html
+- equipe.html
+- contato.html
+- style.css
+
+O que foi resolvido:
+- atualização do menu em todas as páginas;
+- criação da nova página equipe.html;
+- link da nova aba no index e nas demais páginas;
+- conteúdo da equipe com 3 blocos;
+- destaque visual específico da nova página;
+- botão de retorno para a página inicial.
